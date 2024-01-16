@@ -8,7 +8,9 @@
 
     function closeSignupModal() {
       var modal = document.getElementById('signupModal');
+      var bdy = document.querySelector('body');
       modal.style.display = 'none';
+      bdy.style.backgroundColor = 'black';
     }
 
     function signup() {
